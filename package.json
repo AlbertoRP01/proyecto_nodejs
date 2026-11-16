@@ -1,0 +1,20 @@
+{
+  "name": "ud2-demo-ci",
+  "version": "1.0.0",
+  "description": "Proyecto demo para la UD2 de DevOps (CI con Node.js)",
+  "main": "src/calculadora.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "ci",
+    "devops",
+    "jest",
+    "node"
+  ],
+  "author": "Tu Nombre/Nombre del Centro",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
