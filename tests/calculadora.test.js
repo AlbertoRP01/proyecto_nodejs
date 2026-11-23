@@ -1,6 +1,6 @@
 // Importamos solo lo que necesitamos testear
 // ¡Actualizado para incluir 'restar'!
-const { sumar, restar } = require('../src/calculadora');
+const { sumar, restar, multiplicacion } = require('../src/calculadora');
 
 // 'describe' agrupa tests relacionados. Es bueno para organizar.
 describe('Pruebas para la Calculadora', () => {
@@ -11,9 +11,9 @@ describe('Pruebas para la Calculadora', () => {
     
     // 'expect()' es la función de aserción de Jest.
     // .toBe() es un "comparador" (matcher) que usa === (igualdad estricta).
-    expect(restar(2, 2)).toBe(0);
-    expect(restar(10, -5)).toBe(15);
-    expect(restar(0, 0)).toBe(0);
+    expect(multiplicacion(2, 2)).toBe(4);
+    expect(multiplicacion(10, -5)).toBe(-50);
+    expect(multiplicacion(0, 0)).toBe(0);
   });
 
 });
